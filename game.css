@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height:max-content;
+}
+
+.font-page
+{
+    height: 100vh;
+    background-color: blueviolet;
+
+}
+section
+{
+    height: 100vh;
+    background-color: blueviolet;
+    background-size: auto;
+    font-family: ' sans-serif';
+}
+.score
+{
+    color: aliceblue;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.score h2{
+    font-size: 30px;
+}
+.score p{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.title{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 160px;
+}
+.title h1{
+font-size: 40px;
+
+}
+.title button{
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: none;
+    color:white;
+    font-size: 20px;
+    background-color: green;
+    align-items: center;
+    margin-top: 50px;
+    cursor: pointer;
+
+
+}
+#match
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.winner
+{
+   color: white;
+    font-size: 30px;
+    font-weight: 200;
+    align-items: center;
+}
+.hands
+{
+    align-items: center;
+}
+img
+{
+    border: 30px;  
+     margin-top: 70px;
+     padding-right: 50px;
+     padding-left: 0px;
+}
+.c-hand
+{
+    transform: rotateY(180deg);
+}
+.options button
+{
+    cursor:pointer;
+   border: none;
+   background: none;
+   color: white;
+   background-color: darkgreen;
+   font-size: 30px;
+   text-align: center;
+   width: 140px;
+   height: 60px;
+   justify-content: space-around;
+   gap:130px;
+   margin-top:50px ;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+/* #intro
+{
+    visibility: hidden;
+} */

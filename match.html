@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="game1.js"></script>
+</head>
+<body>
+    <section class="game">
+        <div class="score">
+            <div class="player-score">
+                <h2>Player1</h2>
+                <a id ="p1">0</a>
+            </div>
+            <div class="Computer-Score">
+                <h2>Player2</h2>
+                <a id ="p2">0</a>
+            </div>
+        </div>
+        <div id="match"> 
+            <h2 class="winner"id="h2">Choose an options</h2>
+             <div class="hands">
+                <img src="rock.png"  class="p-hand" id="p-hand" alt="">
+                <img src="rock.png" class="c-hand" id="c-hand" alt=""> 
+            </div>
+            <div class="options">
+                <button class="rock" id="rock" onclick="rock()">rock</button>
+                <button class="paper" id="paper"onclick="paper()">paper</button>
+                <button class="scissors" id="scissors" onclick="sic()">scissors</button>
+            </div>
+        </div>
+    </section>
+    
+    </div>
+    
+</body>
+</html>
