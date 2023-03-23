@@ -76,14 +76,14 @@ function fun()
     {
        document.getElementById("h2").innerHTML="player1 win!!";
        setTimeout(() => {
-        window.location.href = "game.html";
+        window.location.href = "index.html";
        }, 4000);
     }
     if(p2==10)
     {
        document.getElementById("h2").innerHTML="player2 win!!";
        setTimeout(() => {
-        window.location.href = "game.html";
+        window.location.href = "index.html";
        }, 4000);
     }
 }
